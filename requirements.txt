@@ -1,0 +1,17 @@
+# packages
+bs4
+pandas
+glob2
+tqdm
+argparse
+dacy
+thefuzz[speedup]
+geopy
+folium
+matplotlib
+geopandas
+plotly
+kaleido
+
+# model
+dacy[large]
