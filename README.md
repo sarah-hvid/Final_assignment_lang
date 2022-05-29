@@ -50,25 +50,25 @@ Examples of the outputs of the scripts can be found in the ```output``` folder.
 ## Results
 The results of the scripts are mainly exploratory as no specific hypothesis is being investigated. However, I find the results quite impressive considering the historic text. Even though specific errors of Dacy has been removed, the visualizations show an image that make sense. Ibsen spoke mostly of locations in Europe and specifically in Norway, Sweden, Denmark, Germany and Italy. These countries contain both the most varieties of locations as seen in the ```Folium``` plot and aggregated mentions as seen in the ```GeoPandas``` and ```Plotly``` plots.
 
-**Folium plot**
-
-<img src="/output/folium_plot.png", width="500" height="400">
-
 **GeoPandas Europe plot**
 
 <img src="/output/geopandas_europe.jpg">
 
 **GeoPandas world plot**
 
-<img src="/output/geopandas_world.jpg" width="500" height="400">
+<img src="/output/geopandas_world.jpg">
 
 **Plotly Europe plot**
 
 <img src="/output/plotly_europe.png">
 
-**Plotly Europe plot**
+**Plotly world plot**
 
-<img src="/output/plotly_world.png">
+_download_ html file from the [output folder](https://github.com/sarah-hvid/Final_assignment_lang/blob/main/output/plotly_world.html)
+
+**Folium world plot**
+
+_download_ html file from the [output folder](https://github.com/sarah-hvid/Final_assignment_lang/blob/main/output/folium_plot.html)
 
  
 ## References
