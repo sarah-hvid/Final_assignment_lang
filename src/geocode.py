@@ -143,7 +143,7 @@ def geopandas_plot(df):
     plt.xlabel("Longitude")
     plt.ylabel("Latitude")
     
-    plt.savefig(f'output/geopandas_world.jpg')
+    plt.savefig(f'output/geopandas_world.jpg', bbox_inches='tight')
     return
 
 
@@ -157,7 +157,7 @@ def geopandas_plot_sm(df):
     worldmap = gpd.read_file(gpd.datasets.get_path("naturalearth_lowres"))
     # Filtering Europe
     europemap = worldmap.loc[worldmap['continent'] == 'Europe']
-
+    
     # Creating axes and plotting world map
     fig, ax = plt.subplots(figsize=(20, 10))
     europemap.plot(color="lightgrey", ax=ax)
@@ -178,7 +178,7 @@ def geopandas_plot_sm(df):
     plt.xlabel("Longitude")
     plt.ylabel("Latitude")
     
-    plt.savefig(f'output/geopandas_europe.jpg')
+    plt.savefig(f'output/geopandas_europe.jpg', bbox_inches='tight')
     return
 
 
