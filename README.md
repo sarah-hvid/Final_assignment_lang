@@ -16,7 +16,7 @@ A script was then created for the geocoding and plotting: ```geocode.py```. The 
 
 ## Usage
 In order to run the scripts, certain modules need to be installed. These can be found in the ```requirements.txt``` file. The folder structure must be the same as in this GitHub repository (ideally, clone the repository).\
-The data used in the assignment is __Henrik Ibsen's letters__ (see _Contribution_. The data is available in the ```data.zip``` folder and must be unzipped before running these scripts.\
+The data used in the assignment is __Henrik Ibsen's letters__ (see _Contribution_). The data is available in the ```data.zip``` folder and must be unzipped before running these scripts.
 ```bash
 git clone https://github.com/sarah-hvid/Final_assignment_lang
 cd Final_assignment_lang
@@ -49,6 +49,26 @@ Examples of the outputs of the scripts can be found in the ```output``` folder.
 
 ## Results
 The results of the scripts are mainly exploratory as no specific hypothesis is being investigated. However, I find the results quite impressive considering the historic text. Even though specific errors of Dacy has been removed, the visualizations show an image that make sense. Ibsen spoke mostly of locations in Europe and specifically in Norway, Sweden, Denmark, Germany and Italy. These countries contain both the most varieties of locations as seen in the ```Folium``` plot and aggregated mentions as seen in the ```GeoPandas``` and ```Plotly``` plots.
+
+**Folium plot**
+
+<img src="/output/folium_plot.png", width="500" height="400">
+
+**GeoPandas Europe plot**
+
+<img src="/output/geopandas_europe.jpg">
+
+**GeoPandas world plot**
+
+<img src="/output/geopandas_world.jpg" width="500" height="400">
+
+**Plotly Europe plot**
+
+<img src="/output/plotly_europe.png">
+
+**Plotly Europe plot**
+
+<img src="/output/plotly_world.png">
 
  
 ## References
